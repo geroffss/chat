@@ -1,0 +1,253 @@
+.start {
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .start .div {
+    background-color: #2b2b2b;
+    overflow: hidden;
+    width: 100%;
+    height: 982px;
+    position: relative;
+  }
+  
+  .start .chat {
+    position: absolute;
+    width: 413px;
+    height: 915px;
+    top: 75px;
+    left: 0;
+    background-color: #1a1923;
+  }
+  
+  .start .chats {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: absolute;
+    top: 147px;
+    left: 15px;
+  }
+  
+  .start .chateng {
+    display: flex;
+    flex-direction: column;
+    width: 369px;
+    height: 70px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 0px 15px 15px;
+    position: relative;
+    background-color: #9a85fb;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .start .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .start .avatar {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .start .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #f5edf5;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .start .chathu {
+    display: flex;
+    flex-direction: column;
+    width: 369px;
+    height: 70px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 0px 15px 15px;
+    position: relative;
+    background-color: #9b85fb7b;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .start .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .start .chatro {
+    display: flex;
+    flex-direction: column;
+    width: 369px;
+    height: 70px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 0px 15px 15px;
+    position: relative;
+    background-color: #9b85fb7b;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .start .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .start .chatname {
+    display: flex;
+    width: 413px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35px;
+    left: 0;
+  }
+  
+  .start .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #fbfdf5;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .start .topnav {
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .start .img {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 10px;
+    margin-left: 95%;
+  }
+  
+  .start .avatar-2 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 10px;
+    left: 23px;
+  }
+  
+  .start .text-wrapper-3 {
+    position: absolute;
+    margin-top: 0.5rem;
+    top: 12px;
+    left: 102px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .writebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.frame3 {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    margin-top: 10rem;
+    margin-left: 100px;
+    padding-left: 5%;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.lastInputs {
+    /* Additional styles for lastInputs, if needed */
+}
+
+.write {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.overlap-group-wrapper {
+    width: 100%;
+}
+
+.frame-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-wrapper-4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: calc(100% - 50px); /* Adjust width considering space for the send button */
+}
+
+.inputtext {
+    flex: 1;
+    width: 100%;
+    height: 35px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    border: none;
+    padding: 0 10px;
+}
+
+.send {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+/* Rest of your CSS styles */
